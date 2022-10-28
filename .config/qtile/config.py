@@ -27,7 +27,7 @@
 # from libqtile.command import lazy
 # from .keys import mod, keys
 
-from typing import List  # noqa: F401
+#from typing import List  # noqa: F401
 
 from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
