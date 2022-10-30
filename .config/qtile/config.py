@@ -25,7 +25,7 @@
 # SOFTWARE.
 # from libqtile.config import Key, Group
 # from libqtile.command import lazy
-# from .keys import mod, keys
+from .keys import mod, keys
 
 #from typing import List  # noqa: F401
 
