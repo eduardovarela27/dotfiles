@@ -1,0 +1,36 @@
+19 [status]
+20 disabled = false
+21 format = "[$symbol $status]($style) "
+22 not_found_symbol = ""
+23 not_executable_symbol = ""
+24 sigint_symbol = "ﭦ"
+25 map_symbol = true
+26
+27 [git_branch]
+28 format = "[$symbol$branch]($style) "
+29
+30 [package]
+31 format = "[$symbol$version]($style) "
+32 symbol = " "
+33
+34 [python]
+35 format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+36 symbol = " "
+37
+38 [nodejs]
+39 format = "[$symbol($version )]($style)"
+40
+41 [php]
+42 format = "[$symbol($version )]($style)"
+43 symbol = " "
+44
+45 [java]
+46 format = "[${symbol}(${version} )]($style)"
+47 symbol = " "
+48
+49 [rust]
+50 format = "[$symbol($version )]($style)"
+51
+52 [golang]
+53 format = "[$symbol($version )]($style)"
+54 symbol = " "
